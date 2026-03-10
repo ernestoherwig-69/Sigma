@@ -1,0 +1,63 @@
+#include <stdio.h>
+int main()
+{
+    int n;
+    while (1)
+    {
+        printf("Geben Sie eine Zahl ein oder geben Sie ‚0‘ ein, um zu beenden:");
+        scanf("%d", &n);
+        if (n == 0)
+        {
+            printf("Danke :) E.H");
+            break;
+        }
+        if (n == 1)
+        {
+            printf("Januar\n\n");
+        }
+        else if (n == 2)
+        {
+            printf("Februar\n\n");
+        }
+        else if (n == 3)
+        {
+            printf("Marz\n\n");
+        }
+        else if (n == 4)
+        {
+            printf("April\n\n");
+        }
+        else if (n == 5)
+        {
+            printf("Mai\n\n");
+        }
+        else if (n == 6)
+        {
+            printf("Juni\n\n");
+        }
+        else if (n == 7)
+        {
+            printf("Juli\n\n");
+        }
+        else if (n == 8)
+        {
+            printf("August\n\n");
+        }
+        else if (n == 9)
+        {
+            printf("September\n\n");
+        }
+        else if (n == 10)
+        {
+            printf("Oktober\n\n");
+        }
+        else if (n == 11)
+        {
+            printf("November\n\n");
+        }
+        else if (n == 12)
+        {
+            printf("Dezember\n\n");
+        }
+    }
+}
