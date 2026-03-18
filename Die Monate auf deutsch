@@ -59,5 +59,9 @@ int main()
         {
             printf("Dezember\n\n");
         }
+        else{
+            printf("Bitte versuche es erneut\n\n");
+        }
     }
+return 0;
 }
