@@ -4,7 +4,7 @@ int main()
     int n;
     while (1)
     {
-        printf("Geben Sie eine Zahl ein oder geben Sie ‚0‘ ein, um zu beenden:");
+        printf("Geben Sie eine Zahl ein oder geben Sie [0] ein, um zu beenden:");
         scanf("%d", &n);
         if (n == 0)
         {
